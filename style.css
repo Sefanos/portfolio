@@ -1,0 +1,279 @@
+body {
+    font-family: 'Roboto', serif;
+    color: #6E6E6E;
+    font-size: 14px;
+}
+.section-with-bg {
+    /* background-image: url('images/bg-1.png'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    position: relative;
+    background-position: center;
+}
+.has-after::after {
+    content: " ";
+    border-bottom: 100px solid #fff;
+    border-left: 100vw solid transparent;
+    position: absolute;
+    bottom: 0;
+}
+.has-before::before {
+    content: " ";
+    border-top: 100px solid #fff;
+    border-right: 100vw solid transparent;
+    position: absolute;
+    top: 0;
+}
+.title {
+    color: #4A4A4A;
+    font-size: 30px;
+}
+.sub-title {
+    color: #4A4A4A;
+    font-size: 16px;
+}
+.btn-green {
+    background-color: #A0D334;
+    color: #fff;
+    padding: 10px 25px;
+    border: none;
+}
+.section-title, .section-description {
+    text-align: center;
+}
+.section-title {
+    color: #4A4A4A;
+    font-size: 30px;
+}
+.section-description {
+    width: 50%;
+    margin: 0 auto;
+}
+.shadow-container {
+    margin: 20px;
+    box-shadow: 0px 5px 10px #eee;
+    padding: 15px;
+    min-height: 130px;
+}
+/* ====================================================================
+                            CSS OF SECTION ONE
+    ====================================================================*/
+#section-1 {
+    background-image: linear-gradient(to bottom,
+        rgba(122, 57, 219, 0.52), 
+        rgba(61, 29, 110, 0.73)), 
+        url('images/bg-1.png');
+}
+/* ============ MENU ============*/
+.navigation {
+    padding-top: 30px;
+}
+.logo {
+    color: #A0D334;
+    font-size: 28px;
+}
+.menu-item {
+    color: #fff;
+    padding: 10px;
+}
+.btn-contact {
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 10px 15px;
+}
+a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+/* ============ INTRO TEXT & BUTTON ============*/
+.introduction{
+    color: #fff;
+    margin-top: 240px;
+}
+.intro-text {
+    font-size: 20px;
+    margin: 0;
+}
+.portfolio-name {
+    font-size: 60px;
+    margin: 0;
+}
+.get-started-btn {
+    margin-top: 50px;
+}
+/* ====================================================================
+                            CSS OF SECTION TWO
+    ====================================================================*/
+#section-2 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.services-text {
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.service-img {
+    float: left;
+}
+.service-title {
+    padding-top: 5px;
+}
+.service-title, .service-text {
+    padding-left: 50px;
+}
+
+/* ====================================================================
+                            CSS OF SECTION THREE
+    ====================================================================*/
+#section-3 {
+    height: 500px;
+    background-image: linear-gradient(to bottom,
+        rgba(122, 57, 219, 0.52), 
+        rgba(61, 29, 110, 0.73)), 
+        url('images/bg-2.png');
+}
+.watch-story {
+    text-align: center;
+    max-width: 250px;
+    position: absolute;
+    top: 35%;
+    left: 41%;
+}
+.play-btn {
+    margin-bottom: 20px;
+}
+.watch-story p {
+    color: #fff;
+    font-size: 30px;
+}
+/* ====================================================================
+                            CSS OF SECTION FOUR
+    ====================================================================*/
+.skills-container {
+    margin: 70px 0px;
+}
+.skill-percent {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    font-size: 34px;
+    color: #5D5D5D;
+    padding-top: 48px;
+    margin: 0 auto;
+    background-position: center;
+}
+.skill-percent.skill-1{
+    background-image: url(./images/level-1.png);
+}
+.skill-percent.skill-2{
+    background-image: url(./images/level-2.png);
+}
+.skill-percent.skill-3{
+    background-image: url(./images/level-3.png);
+}
+.skill-percent.skill-4{
+    background-image: url(./images/level-4.png);
+}
+.skill-name {
+    text-align: center;
+    margin-top: 25px;
+    color: #4A4A4A;
+    font-size: 16px;
+}
+/* ====================================================================
+                            CSS OF SECTION FIVE
+    ====================================================================*/
+#section-5 {
+    position: relative;
+    background-color: #FAFAFF;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.nav-tab-container {
+    margin: 30px 0px;
+}
+#portfolio-tab {
+    width: max-content;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+#portfolio-tab .nav-link {
+    color: #4A4A4A;
+    font-size: 16px;
+}
+#portfolio-tab .nav-link.active {
+    color: #A0D334;
+    border-bottom: 1px solid #A0D334;
+}
+.tab-content {
+    margin-top: 50px;
+}
+.tab-img-container {
+    position: relative;
+    margin-bottom: 30px;
+}
+.images-container img {
+    position: relative;
+}
+.tab-img-container::before {
+    content: " ";
+    background-color: #6048FF;
+    opacity: .3;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+.tab-img-container:hover::before {
+    background-color: transparent;
+}
+/* ====================================================================
+                            CSS OF SECTION SIX
+    ====================================================================*/
+.clients-container {
+    padding: 75px 0px;
+}
+ol.carousel-indicators {
+    bottom: -50px;
+}
+.carousel-indicators li {
+    background-color: #A0D334;
+}
+.client-img {
+    float: left;
+}
+.client-info {
+    padding-left: 70px;
+    padding-top: 3px;
+}
+h3.name {
+    font-size: 16px;
+    color: #333;
+}
+.client-container {
+    margin: 20px;
+    box-shadow: 0px 5px 10px #eee;
+    padding: 15px;
+    min-height: 215px;
+}
+/* ====================================================================
+                            CSS OF FOOTER
+    ====================================================================*/
+footer {
+    padding: 20px 0px;
+    background-image: linear-gradient(to left,
+    rgba(122, 57, 219, 1), 
+    rgba(61, 29, 110, 1));
+    color: #fff;
+}
+.footer-icon {
+    float: left;
+}
+.footer-text-container {
+    padding-left: 45px;
+}
+.footer-title {
+    font-weight: 700;
+}
