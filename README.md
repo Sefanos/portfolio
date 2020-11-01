@@ -3,4 +3,4 @@ A tutorial of creating a sample portfolio using html and css bootstrap 4, using 
 ## Downloading
 make sure git is installed on your machine then copy this command or download the zip file
 ```git
-git clone https://github.com/ennaimy/portfolio-example.git
+git clone https://github.com/Sefanos/portfolio.git
